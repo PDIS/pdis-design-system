@@ -1,0 +1,21 @@
+{
+  "name": "pdis-design-system",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "css-compile": "sass --style expanded --source-map --embed-sources --no-error-css scss/:dist/css/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PDIS/pdis-design-system.git"
+  },
+  "author": "PDIS",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PDIS/pdis-design-system/issues"
+  },
+  "homepage": "https://github.com/PDIS/pdis-design-system#readme",
+  "dependencies": {
+    "sass": "^1.49.7"
+  }
+}

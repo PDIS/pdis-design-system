@@ -1,0 +1,11 @@
+:root {
+  @each $color, $value in $colors {
+    --bs-#{$color}: #{$value};
+  }
+}
+
+.darkmode {
+  @each $color, $value in $darkmode-colors {
+    --bs-#{$color}: #{$value};
+  }
+}
