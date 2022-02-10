@@ -120,6 +120,8 @@
   --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
+  --bs-body-color: #212529;
+  --bs-body-bg: #fff;
 }
 
 .darkmode {
@@ -234,16 +236,18 @@
   --bs-cyan: #0dcaf0;
   --bs-gray: #6c757d;
   --bs-gray-dark: #343a40;
-  --bs-white: #fff;
-  --bs-black: #000;
+  --bs-white: #000;
+  --bs-black: #fff;
   --bs-primary: #0d6efd;
   --bs-secondary: #6c757d;
   --bs-success: #198754;
   --bs-info: #0dcaf0;
   --bs-warning: #ffc107;
   --bs-danger: #dc3545;
-  --bs-light: #f8f9fa;
-  --bs-dark: #212529;
+  --bs-light: #212529;
+  --bs-dark: #f8f9fa;
+  --bs-body-color: #f8f9fa;
+  --bs-body-bg: #212529;
 }
 
 .text-gray-100 {
@@ -730,6 +734,14 @@
   color: var(--bs-dark) !important;
 }
 
+.text-body-color {
+  color: var(--bs-body-color) !important;
+}
+
+.text-body-bg {
+  color: var(--bs-body-bg) !important;
+}
+
 .bg-gray-100 {
   background-color: var(--bs-gray-100) !important;
 }
@@ -1212,6 +1224,18 @@
 
 .bg-dark {
   background-color: var(--bs-dark) !important;
+}
+
+.bg-body-color {
+  background-color: var(--bs-body-color) !important;
+}
+
+.bg-body-bg {
+  background-color: var(--bs-body-bg) !important;
+}
+
+.table {
+  color: var(--bs-body-color);
 }
 
 /*# sourceMappingURL=pdis-design-system.css.map */
